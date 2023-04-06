@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Steel Defect Classification</title>
+    <link rel='stylesheet' href="static/css/style.css">
+  </head>
+  <body>
+    <h1>Steel Defect Classification</h1>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+      <label for="image">Select an image:</label>
+      <input type="file" name="file" id="image">
+      <br><br>
+      <input type="submit" value="Upload and predict">
+    </form>
+      {{ prediction }}
+  </body>
+</html>
