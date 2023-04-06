@@ -1,0 +1,3 @@
+.h5 filter=lfs diff=lfs merge=lfs -text
+C:/Users/yokes/Downloads/github/Steel-defect filter=lfs diff=lfs merge=lfs -text
+*.h5 filter=lfs diff=lfs merge=lfs -text
