@@ -2,3 +2,9 @@ Flask
 numpy
 Pillow
 tensorflow
+gunicorn
+keras
+opencv_python
+pandas
+requests
+Werkzeug
